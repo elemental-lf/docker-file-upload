@@ -10,9 +10,9 @@ supported in Docker version 17.05 and greater.
 
 When running this image the container requires three environment variables:
 
-SITE_NAME	Name of the site (can't currently contain forward slashes)
-SITE_USERNAME	Username for web and SFTP access
-SITE_PASSWORD   Password for web and SFTP access
+  * SITE_NAME - Name of the site (can't currently contain forward slashes)
+  * SITE_USERNAME - Username for web and SFTP access
+  * SITE_PASSWORD - Password for web and SFTP access
 
 Only one user is supported. The upload area can either be accessed via the
 exposed web server on port 80 or via a chroot()ed SFTP server on port 22.
